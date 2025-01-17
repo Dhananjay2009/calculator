@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=poppins:wght@300;400;600&family=urbanist:wght@300;400;600;700;800;900&display=swap");
+
+html{
+   /* background-image: url(./Downloads/pexels-fwstudio-33348-129731.jpg); */
+   background-color: pink;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(13, 36, 36);
+}
+
+.container{
+    text-align: center;
+}
+
+.div{
+    width: 25%;
+    height: 48vh;
+    margin: auto;
+    margin-top: 110px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid rgb(22, 154, 68);
+    padding: 10px;
+    /* box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.3); */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+    background-color: transparent;
+    
+   
+}
+
+.button{
+    margin: 5px;
+    width: 55px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    background-color: #222;
+    
+}
+
+#display{
+    width: 300px;
+    margin-top: 40px;
+    padding-top: 20px;
+    font-size: 25px;
+    color: white;   
+    background-color: #1b1a1a;
+}
