@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="h1">
+        welcome to calculator!
+        <br>
+        <br>
+    </div>
+    <section class="container">
+    <div class="div">
+        <input type="text" id="display" readonly>
+        <br>
+        <br>
+
+        <button class="button" onclick="clearDisplay('C')">C</button>
+        <button class="button" onclick="resetCalculator('CE')">CE</button>
+        <button class="button" onclick="displayMessage('%')">%</button>
+        <button class="button" onclick="displayMessage('/')">/</button>
+        <br>
+
+        <button class="button" onclick="displayMessage('7')">7</button>
+        <button class="button" onclick="displayMessage('8')">8</button>
+        <button class="button" onclick="displayMessage('9')">9</button>
+        <button class="button" onclick="displayMessage('*')">*</button>
+        <br>
+
+        <button class="button" onclick="displayMessage('4')">4</button>
+        <button class="button" onclick="displayMessage('5')">5</button>
+        <button class="button" onclick="displayMessage('6')">6</button>
+        <button class="button" onclick="displayMessage('-')">-</button>
+        <br>
+
+        <button class="button" onclick="displayMessage('1')">1</button>
+        <button class="button" onclick="displayMessage('2')">2</button>
+        <button class="button" onclick="displayMessage('3')">3</button>
+        <button class="button" onclick="displayMessage('+')">+</button>
+        <br>
+
+        <button class="button" onclick="displayMessage('00')">00</button>
+        <button class="button" onclick="displayMessage('0')">0</button>
+        <button class="button" onclick="displayMessage('.')">.</button>
+        <button class="button" onclick="calculateResult('=')">=</button>
+        
+    </div>
+</section>
+<script src="calculator.js"></script>
+</body>
+</html>
